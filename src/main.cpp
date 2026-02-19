@@ -7,6 +7,10 @@
  * force or pressure is applied. The value is displayed on the
  * Serial Monitor every 500 milliseconds.
  *
- * @author Bhartendu Ji
- * @date 18 Feb 2026
+ * @author Jagriti Gupta
+ * @date 19 Feb 2026
  */
+// Pin Definitions
+int fsrPin = A0;      ///< FSR connected to analog pin A0
+int fsrValue = 0;     ///< Stores analog value read from FSR
+
